@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: php
-        image: php-demo:v1
-        imagePullPolicy: Never
+        image: issu181/php-demo:latest
+       imagePullPolicy: Always
         ports:
         - containerPort: 80
