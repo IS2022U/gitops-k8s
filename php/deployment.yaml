@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: php
-        image: issu181/php-demo:latest
-       imagePullPolicy: Always
+        image: IS2022U/php-demo:latest
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
